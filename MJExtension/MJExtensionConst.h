@@ -4,9 +4,6 @@
 
 #import <Foundation/Foundation.h>
 
-// 过期
-#define MJExtensionDeprecated(instead) NS_DEPRECATED(2_0, 2_0, 2_0, 2_0, instead)
-
 // 构建错误
 #define MJExtensionBuildError(clazz, msg) \
 NSError *error = [NSError errorWithDomain:msg code:250 userInfo:nil]; \
